@@ -26,7 +26,6 @@ const salarios = [
 
 const getEmpleado = ( id ) => {
 
-    
     return new Promise(( resolve, reject ) => {
 
         const empleado = empleados.find( e => e.id === id )?.nombre;

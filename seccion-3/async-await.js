@@ -25,7 +25,6 @@ const salarios = [
 ];
 
 const getEmpleado = ( id ) => {
-
     
     return new Promise(( resolve, reject ) => {
 
